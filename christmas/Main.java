@@ -9,7 +9,7 @@ public class Main {
 		List <String> regali = new ArrayList<>();
 		boolean whiFunction = true;
 		
-		while(true) {
+		while(whiFunction) {
 			System.out.println("Vuoi comprare un regalo ?");
 			String compra = scan.nextLine();
 			if(compra.equals("si")) {
